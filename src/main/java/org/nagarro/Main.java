@@ -45,7 +45,7 @@ public class Main {
         sender.sendNotification(subject, message);
 
         // Send notification to the subscribed users
-        notificationService.notifyObservers("New notification: " + subject + " - " + message);
+        notificationService.notifyObservers("Notification: " + subject + " - " + message);
     }
 
 }
