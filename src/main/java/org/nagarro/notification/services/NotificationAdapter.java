@@ -1,4 +1,6 @@
-package org.nagarro.notification;
+package org.nagarro.notification.services;
+
+import org.nagarro.notification.interfaces.NotificationChannel;
 
 public class NotificationAdapter {
     private final NotificationChannel channel;

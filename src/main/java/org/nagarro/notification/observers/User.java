@@ -1,4 +1,6 @@
-package org.nagarro.notification;
+package org.nagarro.notification.observers;
+
+import org.nagarro.notification.interfaces.Observer;
 
 public class User implements Observer {
     private final String name;

@@ -1,6 +1,11 @@
 package org.nagarro;
 
-import org.nagarro.notification.*;
+import org.nagarro.notification.factories.NotificationChannelFactory;
+import org.nagarro.notification.interfaces.NotificationChannel;
+import org.nagarro.notification.observers.User;
+import org.nagarro.notification.services.NotificationAdapter;
+import org.nagarro.notification.services.NotificationSender;
+import org.nagarro.notification.services.NotificationService;
 
 import java.util.Scanner;
 

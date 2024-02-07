@@ -1,4 +1,6 @@
-package org.nagarro.notification;
+package org.nagarro.notification.channels;
+
+import org.nagarro.notification.interfaces.NotificationChannel;
 
 public class EmailNotificationChannel implements NotificationChannel {
     @Override

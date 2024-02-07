@@ -1,4 +1,6 @@
-package org.nagarro.notification;
+package org.nagarro.notification.services;
+
+import org.nagarro.notification.interfaces.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.nagarro.notification;
+package org.nagarro.notification.services;
 
 public class NotificationSender {
     private final NotificationAdapter adapter;
